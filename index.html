@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+CU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Guerrilla&family=Reddit+Sans+Condensed:wght@200..900&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+
+<body>
+  <div id="container">
+    <!--navigation -->
+    <nav>
+      <!-- Logo -->
+      <img class="logo"
+        src="data:image/jpeg;base64,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"
+        alt="">
+      <!-- Links -->
+      <ul>
+        <li class="list-items"><a class="link" href="#Home">Home</a></li>
+        <li class="list-items"><a class="link" href="#About">About</a></li>
+        <li class="list-items"><a class="link" href="#Skills">Skills</a></li>
+        <li class="list-items"><a class="link" href="#contact">Contacts</a></li>
+      </ul>
+    </nav>
+    <!-- Home -->
+    <section id="Home">
+      <div class="home-content">
+        <h1 class="animate__animated animate__wobble" id="username">I'm Rohan Thomas <span id="lname">Abraham</span></h1>
+        <p id="usedetails">This is my Portfolio website to describe all Details <br>and Work Experience in Web
+          development</p>
+        <a id="download" href="./Rohans Resume.pdf" download>Download CV</a>
+      </div>
+      <div class="homeimage">
+        <img class="group1" id="shape" src="./images/randomshape.png" alt="no image">
+        <img class="group1" id="girl" src="./images/avatar.png" alt="no image">
+      </div>
+    </section>
+    <!-- About Us -->
+    <section id="About">
+      <div class="head">
+        <h1 id="mainhead">About Me</h1>
+        <span class="subhead">Introduction</span>
+      </div>
+      <div class="aboutbody">
+        <div data-aos="zoom-in-up" class="aboutimage">
+          <img class="img1" src="./images/devimage.jpeg" alt="No image">
+        </div>
+        <div class="aboutContent">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, suscipit doloremque saepe, libero sit
+            dignissimos tenetur nobis unde mollitia harum repudiandae, dolore labore? Quas, aut cum? Consequatur
+            voluptas perspiciatis ipsum.
+          </p>
+          <div class="informations">
+            <div class="infobox">
+              <i class="fa-solid fa-user"></i>
+              <span class="info">Rohan Thomas Abraham</span>
+            </div>
+            <div class="infobox"></div>
+            <i class="fa-solid fa-phone"></i>
+            <span class="info">9952443789</span>
+          </div>
+          <div class="infobox"></div>
+          <i class="fa-solid fa-envelope"></i>
+          <span class="info">rohanthomasabraham06@gmail.com</span>
+        </div>
+      </div>
+  </div>
+  </div>
+
+  </section>
+  <!-- Skills -->
+  <section id="Skills">
+    <div class="head1">
+      <h1 id="mainhead1">Skills</h1>
+      <span class="subhead1">My Skills</span>
+    </div>
+    <div class="skillcontent">
+      <div class="progressbars">
+        <div class="bars">
+          <h3 class="barHead">HTML</h3>
+          <span class="barPercent">89%</span>
+          <div class="basebar"></div>
+          <div data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine" class="basebar basehtml"></div>
+        </div>
+        <div class="bars">
+          <h3 class="barHead">CSS</h3>
+          <span class="barPercent">75%</span>
+          <div class="basebar"></div>
+          <div data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine" class="basebar basecss"></div>
+        </div>
+        <div class="bars">
+          <h3 class="barHead">JS</h3>
+          <span class="barPercent">70%</span>
+          <div class="basebar"></div>
+          <div data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine" class="basebar basejs"></div>
+        </div>
+        <div class="bars">
+          <h3 class="barHead">REACT</h3>
+          <span class="barPercent">90%</span>
+          <div class="basebar"></div>
+          <div data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine" class="basebar basereact"></div>
+        </div>
+      </div>
+      <div data-aos="zoom-out-left" class="skillimage">
+        <img class="myskill" src="./images/skillimage.jpeg" alt="">
+      </div>
+    </div>
+  </section>
+  <!-- Contact -->
+  <section id="contact">
+    <div class="head1">
+      <h1 id="mainhead1">Contacts</h1>
+      <span class="subhead1">My Contacts</span>
+    </div>
+    <div class="iconcollection">
+      <div class="icon">
+        <a href=""><i class="fa-brands fa-linkedin brands"></i></a>
+      </div>
+      <div class="icon">
+        <a href=""><i class="fa-brands fa-instagram brands"></i></a>
+       </div>
+      <div class="icon">
+        <a href=""><i class="fa-brands fa-github brands"></i></a>
+      </div>
+      <div class="icon">
+        <a href=""><i class="fa-brands fa-facebook brands"></i></a> 
+      </div>
+      <div class="icon">
+        <a href=""><i class="fa-brands fa-whatsapp brands"></i></a>
+      </div>
+      </div>
+  </section>
+  <!-- Footer -->
+   <footer>
+    <p id="copyright">&copy; My Portfolio Website-September 2024,Alll RightsReserved to &reg; Rohan Thomas Abraham</p>
+    <div class="icon uparrow">
+      <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+     </div>
+   </footer>
+  </div>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</html>
